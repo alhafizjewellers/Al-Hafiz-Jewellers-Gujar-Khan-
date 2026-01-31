@@ -1,6 +1,6 @@
 function login(){
   let pass = document.getElementById("password").value;
-  if(pass === "admin123"){
+  if(pass === "Hafiz3537@"){
     document.getElementById("panel").style.display="block";
   }else{
     alert("Wrong Password");
