@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel – Al Hafiz Jewellers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="admin">
+  <h2>Admin Login</h2>
+  <input id="password" type="password" placeholder="Enter Password">
+  <button onclick="login()">Login</button>
+
+  <div id="panel" style="display:none">
+    <h3>Add Receipt</h3>
+    <input id="code" placeholder="4-digit Code">
+    <input id="customer" placeholder="Customer Name">
+    <input id="product" placeholder="Product">
+    <input id="weight" placeholder="Weight">
+    <input id="price" placeholder="Price">
+    <input id="date" type="date">
+    <button onclick="saveReceipt()">Save</button>
+  </div>
+</section>
+
+<script src="admin.js"></script>
+</body>
+</html>
